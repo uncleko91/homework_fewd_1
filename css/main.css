@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color: black;
+}
+.header h2{
+    color: yellow;
+    padding-left: 20px ;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px ;
+}
+.separator{
+    display:flex;
+    justify-content: center;
+}
+.separator{
+    text-decoration-color: rgb(0, 0, 0);
+    text ;
+    background-color: rgb(175, 175, 175);
+    text-shadow: rgb(70, 70, 70) 1px 1px 2px;
+}
+.banner{
+    background-image: url("../img/52678101-portrait-of-young-people-sitting-around-in-cafe-with-a-laptop-creative-team-meeting-in-a-coffee-shop.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:  10px;
+
+}
+.container{
+    background-color: honeydew;
+    box-shadow: rgb(66, 66, 66) 0px 0px 2px 2px;
+    padding: 3px;
+    width: 30%;
+    height: 40%;
+    padding-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.item{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.item div{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container button{
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    width: 100%;
+    border: none;
+}
+.item button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(141, 141, 141);
+    width: 100%;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
